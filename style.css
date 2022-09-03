@@ -1,0 +1,386 @@
+.logo a{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.menu ul li a:link{
+font-size: 18px;
+color: white;
+text-transform: uppercase;
+}
+
+.menu ul li a:visited {
+color: white;
+text-decoration: none;
+}
+.menu ul li a:hover{
+    color: crimson;
+}
+.menu ul li a:active {
+    color: chocolate;
+    text-decoration: none;
+    }
+.menu ul li>a:focus {
+    color: crimson;
+}
+.body-wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("images-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid gray;
+}
+nav .container {
+    padding: 15px 0px;
+    
+    
+}
+.icons i {
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 90%;
+   
+}
+.intro {
+    color: white;
+    padding-top: 8%;
+    padding-right: 10%;
+    float: right;
+}
+.intro h1 {
+    font-size: 50px;
+}
+.intro h1::after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 5px;
+}
+.intro h1::before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+.intro p {
+    padding-top: 20px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    width: 350px;
+    
+}
+.intro button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 20px;
+}
+.my-service {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-service h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.my-service p {
+    width: 400px;
+    margin: auto;
+}
+.line {
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    margin: auto;
+}
+.fa-sharp {
+    font-size: 55px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 40px 20px 0px 0px;
+    border-radius: 10px;
+    
+}
+.portfolio p {
+    width: 400px;
+}
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.service {
+    border: 1px groove gray;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+   display: flex;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.portfolio-section {
+    background-color: rgb(26, 37, 37);
+    height: 220vh;
+    padding: 60px 0px 0px 0px;
+}
+.my-portfolio {
+    color: white;
+    padding-left: 10px;
+   
+}
+.my-portfolio p {
+    width: 470px;
+}
+.line-1 {
+    width: 70px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.learn-more {
+    margin-top: 30px;
+    
+}
+.learn-more a {
+    color: white;
+    background-color: transparent;
+    border: 1px groove rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+.port-cont {
+    padding-top: 60px;
+}
+.port-image img {
+    height: 400px;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px gray;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+.port-image {
+    margin-bottom: 30px;
+}
+.port-image:hover img {
+transform: scale(0.9);
+
+}
+.port-image h5 {
+    color: whitesmoke;
+    padding-top: 25px;
+}
+.port-image a {
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+.about-img img {
+    max-width: 80%;
+    height: 120%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px gray;
+}
+.about {
+    padding-top: 50px;
+    height: 100vh;
+}
+.about-left {
+    position: relative;
+    top: 20px;
+}
+.about-left p {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    max-width: 400px;
+    padding-bottom: 30px;
+}
+.about-left a {
+    text-decoration: none;
+    border: 2px solid rgb(255, 117, 3);
+    padding: 15px 40px;
+    font-size: 18px;
+    color: black;
+    
+    font-weight: bold;
+    border-radius: 15px;
+}
+.about-left a:hover {
+    background-color: rgb(255, 117, 3);
+    color: white;
+}
+.line-2 {
+    width: 70px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.reviews {
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(241, 241, 239);
+    height: 130vh;
+}
+.client-reviews {
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+.client-reviews p {
+    width: 600px;
+    margin: auto;
+}
+.line-3 {
+    width: 100px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin: auto;
+}
+.review-img img {
+    width: 13%;
+}
+.review-icon i {
+    display: ;
+    position: relative;
+    top: -50px;
+    left: 480px;
+    color: orange;
+    
+}
+.review-1 {
+    border: 1px groove rgb(241, 239, 239);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    margin: 40px 0px 0px 20px;
+}
+.review-1-p {
+    border-bottom: 1px solid gray;
+}
+.review-1-p p {
+    color: gray;
+    letter-spacing: 1px;
+}
+.review-img {
+    padding-top: 10px;
+}
+.review-img img {
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.review-img-content {
+    padding-top: 10px;
+}
+.review-img-content p {
+    color: gray;
+}
+.form {
+    text-align: center;
+}
+.get-in-touch {
+    text-align: center;
+}
+.contact {
+    padding-top: 20px;
+    background-color: rgb(247, 255, 255);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+}
+.contact-section {
+    background-color: rgb(247, 255, 255);
+    height: 100vh;
+    
+}
+::placeholder {
+    padding-left: 15px;
+    color: rgb(177, 174, 174);
+}
+
+.name input{
+    border-radius: 20px;
+    margin-top: 10px;
+width: 350px;
+padding: 12px 80px 12px 10px;
+margin-left: 50px;
+border: none;
+background-color: rgb(241, 241, 239);
+color:  black;
+}
+.name:focus {
+    outline: gray;
+    border-color: white;
+}
+.email input {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 350px;
+    padding: 12px 0px 12px 10px;
+    margin-right: 50px;
+    border: none;
+    background-color: rgb(241, 241, 239);
+    color: black;
+}
+.subject input {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 87%;
+    padding: 12px 24px 12px 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgb(241, 241, 239);
+    color:  black;
+}
+textarea {
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 87%;
+    height: 70%;
+    margin-left: 20px;
+    background-color: rgb(241, 241, 239);
+    color: rgb(177, 174, 174);
+    padding-left: 10px;
+}
+.get-in-touch h1 {
+    width: 300px;
+    font-weight: bold;
+    margin: auto;
+}
+.form button {
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px gray;
+}
+.form button:hover {
+    color: black;
+    background-color: gray;
+    
+}
